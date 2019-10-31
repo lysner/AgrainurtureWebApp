@@ -1,0 +1,123 @@
+@import url( 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Libre Baskerville';
+	background: url('back3.jpg') no-repeat;
+	background-size: cover;
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar {
+	background-color: darkgreen;
+	padding: 0 !important;
+}
+
+.navbar-brand img {
+	height: 80px;
+	padding-left: 10px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right; 
+	text-align: left;
+
+} 
+
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler {
+	outline: none !important;
+}
+
+/*-----------------------------banner section------------------------*/
+
+#banner {
+	background: url('back3.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 5%;
+}
+
+.promo-title {
+	font-family: 'Libre Baskerville';
+	color: darkgreen;
+	font-size: 40px;
+	margin-top: 100px;
+}
+
+
+#banner a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.p1 {
+	font-family: 'Libre Baskerville';
+	font-size: 50px;
+	font-weight: 700;
+	color: #00cc00;
+}
+
+/*---------------------------body issues------------------------------*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+#issues img {
+	margin-top: -50px; 
+}
+
+#issues i {
+	font-size: 26px;
+	color: #555;
+}
+#issues p {
+	font-weight: 700;
+}
+#issues .card {
+	border-radius: 0;
+	box-shadow: 5px 5px 15px darkgreen;
+	transition: all 0.3s ease-in;
+	
+}
+#issue .card:hover {
+	background: darkgreen;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px darkgreen;
+}

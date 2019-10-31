@@ -1,0 +1,79 @@
+	@import url( 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Libre Baskerville';
+	background: url('backk.jpeg') no-repeat;
+	background-size: cover;
+	margin-top: 3px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	
+
+}
+
+#nav-bar {
+	position: all;
+	margin-top: -10;
+	z-index: 30;
+}
+.navbar {
+	background-color: darkgreen;
+	padding: 0 !important;
+}
+
+.navbar-brand img {
+	height: 80px;
+	padding-left: 10px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right; 
+	text-align: left;
+
+} 
+
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler {
+	outline: none !important;
+}
+
+/*-----------------------------banner section------------------------*/
+
+.promo-title {
+	font-family: 'Libre Baskerville';
+	color: darkgreen;
+	font-weight: 600;
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+
+#banner a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.p {
+	border-style: white;
+	color: black;
+	margin-left: 50px;
+	margin-right: 50px; 	
+	font-weight: 600;
+	font-size: 18px;
+}
